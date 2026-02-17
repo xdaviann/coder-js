@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -12,6 +12,38 @@
     <h1>Simulador de Tienda - Juan Granadillo</h1>
     <p>Este simulador consiste en agregar, quitar y ver productos en un carrito de compras.</p>
 
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Carrito</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Carrito de Compras</h1>
+
+        <div class="input-group">
+            <input type="text" id="productoInput" placeholder="Escribe un producto...">
+            <input type="number" id="cantidadInput" placeholder="Escribe la cantidad...">
+            <button id="btnAgregar">Agregar</button>
+        </div>
+
+        <button id="btnQuitar">Quitar último producto</button>
+
+        <h2>Tus productos:</h2>
+        <ul id="listaCarrito"></ul>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
